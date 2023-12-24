@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<div class="heading">
+		<h1 class="heading_text">Image Scrapper </h1>
+	</div>
+
+	<div class="input">
+		<form>
+			<label for="url">Enter the Url to Search</label>
+			<input id="url" type="text" name="url">
+			<button type="button" class="button">Submit!</button>
+		</form>
+	</div>
+
+	<div id="dataloader" class="loader"></div>
+
+	<div class="output">
+		<ul class="result photo-gallary " >
+
+		</ul>
+	</div>
+
+	<div class="error_div">
+		<h1 id="error" ></h1>
+	</div>
+</body>
+<script src="./index.js"></script>
+</html>
